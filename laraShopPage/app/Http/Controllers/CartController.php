@@ -106,6 +106,7 @@ class CartController extends Controller
             'totalPromtPrice' => $cart->promtPrice,
             'totalQty'=> $cart->totalQty,
             'success' => true,
+            // test -GIT
         ]);
 
     }
