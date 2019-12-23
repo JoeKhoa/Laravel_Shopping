@@ -109,5 +109,6 @@ class CartController extends Controller
         // request()->session()->put('cart','');
         // test_git
         // new test with: new syntax : git commit -a -m" concise/lean syntax"
+        // change in git-server
     }
 }
