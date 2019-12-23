@@ -107,5 +107,6 @@ class CartController extends Controller
         ]);
 
         // request()->session()->put('cart','');
+        // test_git
     }
 }
