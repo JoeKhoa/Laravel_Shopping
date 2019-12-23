@@ -97,9 +97,11 @@ class CartController extends Controller
         // echo '<pre>';print_r($cart->items[$id]); die;
         echo json_encode([
             // 'cart' => $cart->items,
+                // Individual Product
             'price' => $cart->items[$id]['price'], 
             'promtPrice' => $cart->items[$id]['promotionPrice'],
             'productQty' => $cart->items[$id]['qty'],
+                // Total
             'totalPrice' => $cart->totalPrice, 
             'totalPromtPrice' => $cart->promtPrice,
             'totalQty'=> $cart->totalQty,
