@@ -37,6 +37,7 @@
 
   <!-- font-awesome & simple line icons CSS -->
   <link rel="stylesheet" type="text/css" href="source/css/font-awesome.css" media="all">
+  <link rel="stylesheet" href="source/font-awesome/css/fontawesome-all.min.css" media="all">
   <link rel="stylesheet" type="text/css" href="source/css/simple-line-icons.css" media="all">
 
   <!-- owl.carousel CSS -->
