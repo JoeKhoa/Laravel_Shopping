@@ -30,7 +30,7 @@
                       <th>Unit</th>
                       <th>Qty</th>
                       <th style="width:200px !important;">Total</th>
-                      <th  class="action"><i class="fa fa-trash-o" style="cursor:pointer"></i></th>
+                      <th  class="action"><i class="fa fa-trash-alt" style="cursor:pointer"></i></th>
                     </tr>
                   </thead>
                   <tbody class="allCart">
