@@ -486,7 +486,7 @@ if (typeof Typist == 'function') {
 			});
 		})
 
-		$('.fa-trash-o').click(function(){
+		$('.fa-trash-alt').click(function(){
 			$.ajax({
 				url: "http://localhost:8000/apple.store.vn/cart.html/deleteAllItem",
 				type :'POST',

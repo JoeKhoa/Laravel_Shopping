@@ -76,11 +76,16 @@ Route::prefix('apple.store.vn')->group(function(){
     //     $customer->save();
     // });
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('test', function() {
     // Session::put('progress', '5%');
     // dd(Session::get('progress'));
 })->uses('TestController@index');
+
+
+
+// Auth::routes(['register' => false]);
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
