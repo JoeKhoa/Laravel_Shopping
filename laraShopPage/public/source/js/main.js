@@ -527,7 +527,7 @@ if (typeof Typist == 'function') {
 						let price = formatNumber(success.price);
 						let promtPrice = formatNumber(success.promtPrice);
 						let totalPrice = formatNumber(success.totalPrice);
-						let totalPromtPrice = formatNumber(success.totalPromtPrice);
+						let totalPromtPrice = formatNumber(success.totalPrice);
 						$('#product-price-'+id_edit).text(price+'₫');
 						$('#product-promotionPrice-'+id_edit).text(promtPrice+'₫');
 						$('.totalPrice').text(totalPrice+'₫');

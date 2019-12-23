@@ -55,7 +55,6 @@
                           </td>
                           <td id="qty-{{$cart['item']->id}}" class="qty">
                             <i id="{{$cart['item']->id}}" class="fas fa-edit" style=" cursor: pointer;"></i>
-
                             <input class="form-control input-sm" type="text" value="{{$cart['qty']}}">
                           </td>
                           <td class="">
