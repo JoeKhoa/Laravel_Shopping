@@ -106,10 +106,5 @@ class CartController extends Controller
             'success' => true,
         ]);
 
-        // request()->session()->put('cart','');
-        //nothing
-        // test_git
-        
-        // change in git-server
     }
 }
